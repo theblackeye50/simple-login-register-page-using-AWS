@@ -1,7 +1,7 @@
 # Fullstack Login — HTML/CSS/TypeScript frontend + AWS API Gateway + Lambda + DynamoDB
 ## 🔹 1.Project Overview
-The project is a full-stack login and registration system.
-Frontend: Simple login/register form using HTML, CSS, TypeScript.
+- The project is a full-stack login and registration system.
+- Frontend: Simple login/register form using HTML, CSS, TypeScript.
 Backend: Serverless APIs using AWS API Gateway + Lambda.
 Database: DynamoDB to store user credentials securely.
 Authentication: Secure password storage (hashing + salting) and JWT tokens for login sessions.
