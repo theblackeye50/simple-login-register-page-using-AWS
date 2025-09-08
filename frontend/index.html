@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auth1 Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="auth-container">
+    <div class="auth-card">
+      <h1 class="title">Authentication</h1>
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="login">Login</button>
+        <button class="tab-btn" data-tab="register">Register</button>
+      </div>
+
+      <!-- Login Form -->
+      <div id="login" class="tab-content active">
+        <h4> Welcome Back </h4>
+        <input type="text" id="login-username" placeholder="Username/Email">
+        <input type="password" id="login-password" placeholder="Password">
+        <button id="login-btn">Login</button>
+        <p id="login-msg"></p>
+      </div>
+
+      <!-- Register Form -->
+      <div id="register" class="tab-content">
+        <h4> Create Account </h4>
+        <input type="text" id="register-username" placeholder="Username/Email">
+        <input type="password" id="register-password" placeholder="Password">
+        <button id="register-btn">Register</button>
+        <p id="register-msg"></p>
+      </div>
+
+      <!-- Dashboard (INSIDE card now ✅) -->
+      <div id="dashboard" class="tab-content">
+        <h2>Welcome 🎉</h2>
+        <p id="welcome-msg"></p>
+        <button id="logout-btn">Logout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
