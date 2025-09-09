@@ -3,6 +3,7 @@
 <img width="1536" height="749" alt="image" src="https://github.com/user-attachments/assets/3adf659b-5c47-436a-8eab-ec3687176dd7" />
 <img width="1099" height="694" alt="image" src="https://github.com/user-attachments/assets/4b605611-20d1-44f9-8cb1-5c577a97b8ec" />
 <img width="779" height="669" alt="image" src="https://github.com/user-attachments/assets/a5de7908-5ff3-4aae-a3e3-c05b38219186" />
+
 ## 🔹 1.Project Overview
 - The project is a full-stack login and registration system.
 - Frontend: Simple login/register form using HTML, CSS, TypeScript.
